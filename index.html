@@ -38,12 +38,13 @@
       });
       getLocation();
       map.addControl(new tt.GeolocateControl({
-   positionOptions: {
-       enableHighAccuracy: true
-   },
-   trackUserLocation: true,
-        showAccuracyCircle: true
-}));
+           positionOptions: {
+                enableHighAccuracy: true
+             },
+              trackUserLocation: true,
+              showAccuracyCircle: true,
+              showUserLocation: true
+        }));
 
 
     </script>
