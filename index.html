@@ -37,6 +37,13 @@
         center: {lng: 25.117925, lat:81.686846 },
       });
       getLocation();
+      map.addControl(new tt.GeolocateControl({
+   positionOptions: {
+       enableHighAccuracy: true
+   },
+   trackUserLocation: true,
+        showAccuracyCircle: true
+}));
 
 
     </script>
